@@ -3,6 +3,7 @@ package com.vicksanchez.springscreenmatch;
 import com.vicksanchez.springscreenmatch.model.DatosEpisodio;
 import com.vicksanchez.springscreenmatch.model.DatosSerie;
 import com.vicksanchez.springscreenmatch.model.DatosTemporada;
+import com.vicksanchez.springscreenmatch.principal.EjemploStreams;
 import com.vicksanchez.springscreenmatch.principal.Principal;
 import com.vicksanchez.springscreenmatch.service.ConsumoAPI;
 import com.vicksanchez.springscreenmatch.service.ConvierteDatos;
@@ -36,5 +37,8 @@ public class SpringscreenmatchApplication implements CommandLineRunner {
 
 		Principal principal = new Principal();
 		principal.muestraMenu();
+
+//		var ejemploStreams= new EjemploStreams();
+//		ejemploStreams.muestraEjemplo();
 	}
 }
